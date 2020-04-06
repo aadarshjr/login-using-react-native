@@ -9,14 +9,14 @@ class App extends Component {
 
   async componentWillMount() {
     let config = {
-      apiKey: 'AIzaSyAgz74XsFU_S37saWVI3eexO1250m-DlwA',
-      authDomain: 'auth-78a24.firebaseapp.com',
-      databaseURL: 'https://auth-78a24.firebaseio.com',
-      projectId: 'auth-78a24',
-      storageBucket: 'auth-78a24.appspot.com',
-      messagingSenderId: '126823529853',
-      appId: '1:126823529853:web:169e50b3908eaa3ec02014',
-      measurementId: 'G-PS54VFZZYR',
+      apiKey: 'Aapikey',
+      authDomain: 'authdomain',
+      databaseURL: 'database',
+      projectId: 'id',
+      storageBucket: 'storage',
+      messagingSenderId: 'message',
+      appId: 'appid',
+      measurementId: 'mesid',
     };
 
     firebase.initializeApp(config);
